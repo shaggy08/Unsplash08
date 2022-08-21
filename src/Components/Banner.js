@@ -15,13 +15,7 @@ function Banner({ query, setquery,prevValue,page,setpage }) {
     <div className="banner-container">
       <div className="input-wrapper">
         <div className="banner-input">
-          {/* <img className="banner-img" src="https://gray-ksfy-prod.cdn.arcpublishing.com/resizer/u84ccWStpHzoc4mlSIEgoubbcA8=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/ISXKASNGXVDWTCSJFHAYJ2F7LQ.png" alt="banner-image"></img> */}
-          {/* <img
-            className="banner-img"
-            src="https://wallpaperaccess.com/full/370459.jpg"
-            alt="banner-image"
-          ></img> */}
-
+       
           <h1 className="banner-h"> Unsplash</h1>
           <p className=" banner-span">
             The intrenet source of freely usable images
@@ -36,25 +30,7 @@ function Banner({ query, setquery,prevValue,page,setpage }) {
               value={query}
               onChange={ handleChange}
             ></input>
-            {/* <TextField
-            // sx={{
-            //   width: "50%",
-            //   backgroundColor: "white",
-            //   borderRadius: "4px",
-            // }}
-            label="Search high quailty image"
-            value={query}
-            onChange={handleChange}
-            // InputProps={{
-            //   startAdornment: (
-            //     <InputAdornment position="start">
-            //       <SearchIcon />
-            //     </InputAdornment>
-            //   ),
-            // }}
-            variant="standard"
-           
-          /> */}
+      
           </div>
         </div>
       </div>

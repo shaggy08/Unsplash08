@@ -2,7 +2,12 @@ import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import "./Header.css";
 
-function Header() {
+function Header({ query, setquery,prevValue,page,setpage }) {
+  function handleChange(event) {
+    setpage(1);
+    prevValue.current = page;
+    setquery(event.target.value);
+  }
   return (
     <header className="header-container">
       <nav className="nav-items">
@@ -18,6 +23,8 @@ function Header() {
             className="nav-search-input"
             type="search"
             placeholder="Search free high-resolution photos"
+            value={query}
+            onChange={ handleChange}
           ></input>
         </div>
 

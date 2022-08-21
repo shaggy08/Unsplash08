@@ -1,4 +1,4 @@
-import React, { useState ,useRef} from "react";
+import React, { useState, useRef } from "react";
 import "./App.css";
 import Header from "./Components/Header";
 import Catogery from "./Components/Catogery";
@@ -7,14 +7,14 @@ import Gallery from "./Components/Gallery";
 
 function App() {
   const [query, setquery] = useState("");
-  const [page,setpage]=useState(1);
+  const [page, setpage] = useState(1);
   const prevValue = useRef('')
   return (
     <div className="App">
-      <Header />
-      <Catogery />
+      <Header query={query} setquery={setquery} prevValue={prevValue} page={page} setpage={setpage} />
+       <Catogery />
 
-      <Banner query={query} setquery={setquery} prevValue={prevValue} page={page} setpage={setpage}/>
+      <Banner query={query} setquery={setquery} prevValue={prevValue} page={page} setpage={setpage} />
       <Gallery query={query} setquery={setquery} prevValue={prevValue} page={page} setpage={setpage} />
     </div>
   );
