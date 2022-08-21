@@ -1,0 +1,80 @@
+.banner-container {
+  background-image: url("https://wallpaperaccess.com/full/370459.jpg");
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  display: flex;
+
+  line-height: 1.6;
+  flex-direction: column;
+}
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-input {
+  display: flex;
+  flex: 1 1;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: max-content;
+}
+.banner-h {
+  font-size: 2.9rem;
+  font-weight: 700;
+  color: floralwhite;
+  line-height: 2;
+}
+.banner-span {
+  color: floralwhite;
+  font-size: 16px;
+  margin: 0px;
+}
+.banner-spanP {
+  color: floralwhite;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.banner-search {
+  margin-top: 10px;
+  width: 600px;
+  background-color: whitesmoke;
+  color: #767676;
+  height: 32px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+.banner-search-input {
+  height: 57px;
+  background: whitesmoke;
+  border: none;
+  margin: 8px;
+  width: 90%;
+}
+.banner-search-input:focus {
+  border: none;
+  outline: none;
+}
+
+.banner-icon {
+  font-size: 25px;
+  margin-left: 12px;
+}
+.banner-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #ffffff8c;
+  margin-left: 30px;
+  margin-right: 10px;
+}

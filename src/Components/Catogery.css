@@ -1,0 +1,52 @@
+.catogert-conatine {
+  /* position: sticky; */
+  /* top: 55px; */
+  position: sticky;
+  z-index: 4;
+  /* position: sticky; */
+  top: 62px;
+  width: 100%;
+  background-color: white;
+  color: #767676;
+  box-shadow: 0 0 0 #00000000, 0 6px 8px #0100001a;
+}
+
+.catogert-list {
+  align-items: center;
+  display: flex;
+  padding-left: 0px;
+  margin: 0;
+  overflow-x: scroll;
+}
+.catogert-list::-webkit-scrollbar {
+  display: none;
+}
+.cat-line {
+  background-color: #d1d1d1;
+  height: 32px;
+  width: 1px;
+  padding: 0px 1px;
+  box-sizing: border-box;
+}
+.catogert-list-item {
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  padding: 20px 12px;
+  text-decoration: none;
+}
+.active {
+ 
+  color: black;
+  border-bottom: 2px solid;
+  border-radius: 1px;
+  margin-left: 6px;
+
+  
+}
+.catogert-list-item:hover {
+  cursor: pointer;
+  color: black;
+}
